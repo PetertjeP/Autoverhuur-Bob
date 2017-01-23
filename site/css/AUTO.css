@@ -3,3 +3,25 @@ html{
   background-color: black;
   color: white;
 }
+#navbarbanner{
+  z-index: -2;
+}
+#navbarlogo{
+  z-index: 2;
+  margin-top: -11%;
+  margin-left: 0.5%;
+  opacity: 0.69;
+}
+#navbar{
+  margin-left: 17.75%;
+  
+}
+a:link{
+  text-decoration: none;
+  color: white;
+  padding-left: 4%;
+}
+a:hover{
+  text-decoration: underline;
+  color: #ffde00;
+}

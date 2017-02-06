@@ -10,3 +10,6 @@
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+
+ul#navbar li {list-style-type: none;}
+ul#navbar a {color: white; float: left; text-decoration: none; margin-left: 5%; font-size: 120%;}

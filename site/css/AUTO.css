@@ -15,3 +15,9 @@
 @media (min-width: @screen-lg-min) {
 
 }
+* {
+    margin: 1px;
+}
+body {
+    padding-top: 50px;
+}

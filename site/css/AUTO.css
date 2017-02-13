@@ -1,17 +1,46 @@
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {
+html{
+  font-family: verdana;
+  background-color: black;
+  color: white;
+}
+#navbarbanner{
+  z-index: -2;
+}
+#navbarlogo{
+  z-index: 2;
+  margin-top: -11%;
+  margin-left: 0.5%;
+  opacity: 0.69;
+}
+#navbar{
+  margin-left: 17.75%;
 
 }
+a:link{
+  text-decoration: none;
+  color: white;
+  padding-left: 4%;
+}
+a:hover{
+  text-decoration: underline;
+  color: #ffde00;
+}
+<<<<<<< HEAD
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {
-
+/*Contact pagina*/
+#container{
+	
 }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {
-
+#content{
+	
 }
+
+#maps{
+	
+}
+=======
+dsdsd
+
+dd d  ``      sdfghfh     dff
+>>>>>>> origin/master

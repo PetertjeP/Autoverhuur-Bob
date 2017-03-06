@@ -5,10 +5,17 @@
     .wrap {margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px;}
     #hoofdTekst {margin-top: 24px; margin-bottom: 14px;}
     #titelTekst {font-family: sans-serif; font-weight: 600; line-height: 1.2;}
-    .footerTekst {text-align: center;}
-    .footer {bottom: 0;}
-    body {padding-top: 50px; margin: 5px; height: 100%;}
-    .content {padding-bottom: 100px;}
+    body {padding-top: 50px;  height: 100%;}
+    .footer {
+        bottom:0px;
+        left:0px;
+        width:100%;
+        color:#CCC;
+        background:#333;
+        padding:8px;
+        text-align: center;
+    }
+    .content {padding-bottom: 50px;}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -16,7 +23,7 @@
 }
 
 @media only screen and (min-width: 1024px) {
-    body {width: 90%;}
+    body {width: 80%;}
 }
 
 img {

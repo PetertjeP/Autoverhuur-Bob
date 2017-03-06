@@ -1,23 +1,30 @@
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {
+@media only screen and (max-width: 767px) {
 
 }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
 
 }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {
-
+@media only screen and (min-width: 1024px) {
+  #content-area{
+    position: absolute;
+    margin-left: 5%;
+    width: 90%;
+    background-color: green;
+  }
+  .content {
+    position: relative;
+    width: 29.56vw;
+    height: 20%;
+    display: inline-block;
+  }
 }
-* {
-    margin: 1px;
+img {
+    width: 100%;
+    height: auto;
 }
 body {
-    padding-top: 50px;
+  margin: 0;
+  padding-top: 60px;
+  height: 100%;
+  width: 100%;
 }

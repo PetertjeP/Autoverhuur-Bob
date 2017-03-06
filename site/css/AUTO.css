@@ -23,8 +23,46 @@ img {
     height: auto;
 }
 body {
+<<<<<<< HEAD
   margin: 0;
   padding-top: 60px;
   height: 100%;
   width: 100%;
+=======
+    padding-top: 50px;
+}.table {
+ 	list-style-type: none;
+>>>>>>> origin/master
+}
+ol {
+	list-style-type: none;
+}
+.position2 {
+	position: relative;
+	top: 100px;
+}
+
+.links {
+	position: relative;
+	border: 2px solid black;
+	border-radius: 8px;
+	top: 5%;
+	left: 5%;
+	max-width: 300px;
+}
+.Midden {
+	position: relative;
+	border: 2px solid black;
+	border-radius: 8px;
+	top: -35%;
+	left: 30%;
+	max-width: 300px;
+}
+.Rechts {
+	position: relative;
+	border: 2px solid black;
+	border-radius: 8px;
+	top: -10%;
+	left: 55%;
+	max-width: 300px;
 }

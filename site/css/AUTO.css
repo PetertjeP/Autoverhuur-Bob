@@ -20,4 +20,13 @@
 }
 body {
     padding-top: 50px;
+}.table {
+ 	list-style-type: none;
+}
+ol {
+	list-style-type: none;
+}
+.position2 {
+	position: relative;
+	top: 100px;
 }

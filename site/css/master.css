@@ -1,22 +1,29 @@
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {
+@media only screen and (max-width: 767px) {
+    #mobile {display: block;}
+    #iPad {display: none;}
+    #deskTop {display: none;}
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #mobile {display: none;}
+    #iPad {display: block;}
+    #deskTop {display: none;}
 }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {
+@media only screen and (min-width: 1024px) {
+    #mobile {display: none;}
+    #iPad {display: none;}
+    #deskTop {display: block;}
 }
-* {
-    margin: 0 auto;
+
+img {
+    width: 100%;
+    height: auto;
 }
+
 body {
     padding-top: 50px;
+<<<<<<< HEAD
 }
 li {
 	text-decoration: none;
@@ -25,4 +32,6 @@ li {
 ul {
 	text-decoration: none;
 	text-decoration-line: none;
+=======
+>>>>>>> origin/master
 }

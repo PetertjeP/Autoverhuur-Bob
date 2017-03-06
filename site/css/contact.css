@@ -1,16 +1,32 @@
 
-@media (min-width: @screen-sm-min){
-	#contacttext {
-		font-size:1em;
+@media only screen and (max-width:767px){
+	
+	.container{
+		width:100%;
+	}
+	
+	#contacttext{
+		height:10%;
+		width:75%;
+		font-size:90%;
+	}
+	
+	#maps{
+		padding-left:5%;
+	}
+}
+	
+
+@media only screen and (max-width:1023px){
+	.container {
+		width:100%;
 	}
 }
 
-@media (min-width: @screen-md-min){
-	
-}
-
-@media (min-width: @screen-lg-min){
-	
+@media only screen and (max-hei-width:1439px){
+	.container {
+		width:100%;
+	}
 }
 
 *{

@@ -1,6 +1,8 @@
 
 @media (min-width: @screen-sm-min){
-	
+	#contacttext {
+		font-size:1em;
+	}
 }
 
 @media (min-width: @screen-md-min){

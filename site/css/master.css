@@ -1,19 +1,15 @@
 @media only screen and (max-width: 767px) {
-    #mobile {display: block;}
-    #iPad {display: none;}
-    #deskTop {display: none;}
+    .tekstPagina {position: relative;}
+    h3 {font-size: 18px; font-weight: 700; line-height: 1.4;}
+    p {line-height: 1.9;}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    #mobile {display: none;}
-    #iPad {display: block;}
-    #deskTop {display: none;}
+
 }
 
 @media only screen and (min-width: 1024px) {
-    #mobile {display: none;}
-    #iPad {display: none;}
-    #deskTop {display: block;}
+
 }
 
 img {
@@ -23,4 +19,5 @@ img {
 
 body {
     padding-top: 50px;
+    margin: 5px;
 }

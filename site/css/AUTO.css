@@ -42,27 +42,15 @@ ol {
 	top: 100px;
 }
 
-.links {
+.content {
+	width: 20%;
+	display: inline-block;
 	position: relative;
-	border: 2px solid black;
-	border-radius: 8px;
 	top: 5%;
-	left: 5%;
-	max-width: 300px;
+	left: 15%;
+	background-color: skyblue;
+	margin-right: 5%;
 }
-.Midden {
-	position: relative;
-	border: 2px solid black;
-	border-radius: 8px;
-	top: -35%;
-	left: 30%;
-	max-width: 300px;
-}
-.Rechts {
-	position: relative;
-	border: 2px solid black;
-	border-radius: 8px;
-	top: -10%;
-	left: 55%;
-	max-width: 300px;
-}
+
+
+

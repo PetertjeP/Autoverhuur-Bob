@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link type="text/css" rel="stylesheet" href="css/master.css">
     </head>
-    <body style="height: 100%;">
+    <body>
         <nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="container">
@@ -19,17 +19,17 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-           <a class="navbar-brand text-white" href="#">Autoverhuur Bob</a>
+           <a class="navbar-brand" href="#">Autoverhuur Bob</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
-                <li class="liHome text-white"><a href="index.html">Home</a></li>
-                <li class="text-white"><a href="AUTO.html">Auto's huren</a></li>
-                <li class="text-white"><a href="over.html">Over</a></li>
-                <li class="text-white"><a href="contact.html">Contact</a></li>
-                <li class="text-white"><a href="inloggen.html">Inloggen</a></li>
-                <li class="text-white"><a href="registreren.html">Registreren</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="AUTO.html">Auto's huren</a></li>
+                <li><a href="over.html">Over</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="inloggen.html">Inloggen</a></li>
+                <li><a href="registreren.html">Registreren</a></li>
             </ul>
         </div>
         </div>
@@ -44,18 +44,12 @@
             </div>
             <hr>
             <div class="content">
-                <div>
-                <div id="tekstInleiding" style="float: left;">
+                <div id="tekstInleiding">
                     <p>Bij Autoverhuur Bob kan je terecht voor personenauto’s, personenbussen, bestelbussen, bakwagens met laadlift en fietsen. Wij leveren voertuigen voor een periode van 1 uur tot 30 dagen (autohuur), 1 tot 24 maanden (shortlease) of nog langer (leasing) aan particulieren en bedrijven. Huren en leasen zonder fratsen doe je bij HuurMij Mobiliteit. Reserveer daarom nu je huurauto eenvoudig online of bel of mail met ons op over alle andere mogelijkheden!</p>
                 </div>
-                    <div style="float: left;" class="introLogo">
-                        <img src="img/logo.png">
-                    </div>
-                </div>
-                <div class="clearfix"></div>
                 <hr>
-                <section class="inhoudLinks">
-                    <article class="tekstPagina col-sm-3" id="tekstAuto">
+                <section class="inhoud">
+                    <article class="tekstPagina" id="tekstAuto">
                         <h3>Auto huren</h3>
                         <p>
                         <a href="AUTO.html">Auto</a><br>
@@ -64,8 +58,8 @@
                         <a href="AUTO.html">Auto</a><br>
                         </p>
                     </article>
-                    <article class="tekstPagina col-sm-3" id="tekstOver">
-                        <h3>Over</h3>
+                    <article class="tekstPagina" id="tekstOver">
+                        <h3>Auto huren</h3>
                         <p>
                         <a href="over.html">Over</a><br>
                         <a href="over.html">Over</a><br>
@@ -73,8 +67,8 @@
                         <a href="over.html">Over</a><br>
                         </p>
                     </article>
-                    <article class="tekstPagina col-sm-3" id="tekstContact">
-                        <h3>Contact</h3>
+                    <article class="tekstPagina" id="tekstContact">
+                        <h3>Auto huren</h3>
                         <p>
                         <a href="contact.html">Contact</a><br>
                         <a href="contact.html">Contact</a><br>
@@ -82,42 +76,34 @@
                         <a href="contact.html">Contact</a><br>
                         </p>
                     </article>
-                    <article class="tekstPagina col-sm-3" id="tekstNieuws">
+                    <article class="tekstPagina" id="tekstNieuws">
                         <h3>Nieuws</h3>
                         <p>
                             <a href="#">Gele auto's 10% korting.</a>
                         </p>
                     </article>
-                    <div class="clearfix"></div>
                 </section>
                 <section class="inhoud">
                     <article class="pech">
                         <h3 id="pechTitel">Wat te doen bij pech/schade?</h3>
                         <p>
-                        <h4>Pech</h4><br>
-                        <p>
+                            <strong>Pech</strong><br>
                             Bel <strong>tijdens</strong> kantooruren:<br>
                             <a href="callto:071-123456789">071-123456789</a><br><br>
                             U wordt buiten kantooruren geholpen door een medewerker van Taxi Centrale Wielkens. Zij zijn 24 uur per dag bereikbaar. Wij zullen dan per direct contact met u opnemen om te zorgen dat u zo snel mogelijk weer op weg bent.<br><br>
                             U kunt ook direct contact opnemen met de alarmcentrale van het betreffende merk. U vindt dit nummer in het instructie- of onderhoudsboekje in het dashboard.<br><br>
                             Indien u strandt als gevolg van het tanken van foutieve brandstof is de huurder/bestuurder aansprakelijk voor alle kosten die hieruit voortvloeien.<br><br>
-                        </p>
-                        <h4>Bij schade, diefstal of vermissing</h4><br><br>
-                        <p>
+                            <strong>Bij schade, diefstal of vermissing</strong><br><br>
                             Bij een aanrijding, schade, diefstal of vermissing bent u verplicht een schade-aangifteformulier in te vullen.
-                        </p>
                         </p>
                     </article>
                 </section>
             </div>
-            <div class="footer">
-                <p id="copyRight" style="color: black; background: #eee; text-align: center; outline: none !important; margin-bottom: 0px; border: 1px solid lightgray">Copyright ©</p>
-            </div>
-            <div style="margin-top: 30px; text-align: center;" class="adres">
-                <p>Hoofdvestiging Bob B.V.</p><br>
-                <p>Peterlaan 12  |  1234AB Leiden</p><br>
-                <p>KVK  12345678</p>
-            </div>
+            <footer>
+                <div class="footer">
+                    Copyright © - All Rights Reserved
+                </div>
+            </footer>
         </div>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </body>

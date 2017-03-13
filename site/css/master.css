@@ -1,120 +1,32 @@
-img {width: 100%; height: auto;}
-.col-sm-3 {padding-left: 0; padding-right: 0;}
-
-@media screen and (min-width: 1px) and (max-width: 666px) {
+@media only screen and (max-width: 767px) {
     .tekstPagina {position: relative;}
-    
     h3 {font-size: 18px; font-weight: 700; line-height: 1.4;}
-    
-    h4 {font-weight: 500; line-height: 1; font-size: 16px;}
-    
     p {line-height: 1.9; font-size: 13px;}
-    
     .wrap {margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px;}
-    
     #hoofdTekst {margin-top: 24px; margin-bottom: 14px;}
-    
     #titelTekst {font-family: sans-serif; font-weight: 600; line-height: 1.2;}
-    
-    body {padding-top: 50px;}
-    
-    .content {padding-bottom: 30px;}
-    
-    #copyRight {margin-left: -15px; margin-right: -15px; display: block; line-height: 40px;}
-    
-    .adres p {font-size: 11px; line-height: 0; padding: 0;}
-    
-    .introLogo {display: none;}
-    #tekstInleiding {width: 100%;}
+    body {padding-top: 50px;  height: 100%;}
+    .footer {
+        bottom:0px;
+        left:0px;
+        width:100%;
+        color:#CCC;
+        background:#333;
+        padding:8px;
+        text-align: center;
+    }
+    .content {padding-bottom: 50px;}
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
 
-@media screen and (min-width: 667px) and (max-width: 767px) {
-    
-    .tekstPagina {position: relative;}
-    
-    h3 {font-size: 20px; font-weight: 700; line-height: 1.4;}
-    
-    h4 {font-weight: 600; font-size: 18px; line-height: 1.2;}
-    
-    p {line-height: 1.9; font-size: 13px;}
-    
-    .wrap {margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px;}
-    
-    #hoofdTekst {margin-top: 24px; margin-bottom: 14px;}
-    
-    #titelTekst {font-family: sans-serif; font-weight: 600; line-height: 1.2;}
-    
-    body {padding-top: 50px;}
-    
-    .content {padding-bottom: 30px;}
-    
-    #copyRight {margin-left: -15px; margin-right: -15px; display: block; line-height: 40px;}
-    
-    .adres p {font-size: 11px; line-height: 0; padding: 0;}
-    
-    .introLogo {display: none;}
-    #tekstInleiding {width: 100%;}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .tekstPagina {position: relative;}
-    
-    h3 {font-size: 28px; font-weight: 900; line-height: 1.8;}
-    
-    h4 {font-size: 20px; font-weight: 700; line-height: 1.4;}
-    
-    p {line-height: 1.8; font-size: 14px;}
-    
-    .wrap {margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px;}
-    
-    #hoofdTekst {margin-top: 24px; margin-bottom: 14px;}
-    
-    #titelTekst {font-family: sans-serif; font-weight: 600; line-height: 1.2; text-align: center;}
-    
-    body {padding-top: 50px;}
-    
-    .content {padding-bottom: 40px;}
-    
-    #copyRight {margin-left: -15px; margin-right: -15px; display: block; line-height: 60px;}
-    
-    .adres p {font-size: 17px; line-height: 0; padding: 0;}
-    
-    .liHome {padding-left: 20px;}
-    
-    .introLogo {width: 25%;}
-    #tekstInleiding {width: 70%; margin-right: 5%;}
-}
-@media screen and (min-width: 1024px) {
-    .tekstPagina {position: relative;}
-    
-    h3 {font-size: 26px; font-weight: 900; line-height: 1.8;}
-    
-    h4 {font-size: 22px; font-weight: 800; line-height: 1.8;}
-    
-    p {line-height: 1.8; font-size: 20px;}
-    
-    .wrap {margin-left: auto; margin-right: auto; padding-left: 50px; padding-right: 50px;}
-    
-    #hoofdTekst {margin-top: 24px; margin-bottom: 14px;}
-    
-    #titelTekst {font-family: sans-serif; font-weight: 600; line-height: 1.2; text-align: center;}
-    
-    body {padding-top: 50px;}
-    
-    .content {padding-bottom: 40px; padding-top: 75px;}
-    
-    #copyRight {margin-left: -50px; margin-right: -50px; display: block; line-height: 70px;}
-    
-    .adres p {font-size: 20px; line-height: 0.5; padding-top: 20px; padding-bottom: 20px;}
-    
-    .liHome {padding-left: 20px;}
-    
-    .introLogo {width: 25%; margin-top: -25px;}
-    #tekstInleiding {width: 70%; margin-right: 5%;}
-    
-    .inhoudLinks {padding-top: 50px;}
-    
-    .inhoud {padding-top: 50px;}
+@media only screen and (min-width: 1024px) {
+    body {width: 80%;}
 }
 
+img {
+    width: 100%;
+    height: auto;
+}

@@ -5,15 +5,15 @@
 
 }
 @media only screen and (min-width: 1024px) {
-  #content-area{
+  #content-area {
     position: absolute;
-    margin-left: 5%;
+    margin-left: 7%;
     width: 90%;
-    background-color: green;
   }
   .content {
     position: relative;
-    width: 29.56vw;
+    width: 20vw;
+    margin-left: 1%;
     height: 20%;
     display: inline-block;
   }
@@ -27,40 +27,5 @@ body {
   padding-top: 60px;
   height: 100%;
   width: 100%;
- 
-}.table {
- 	list-style-type: none;
 
-}
-ol {
-	list-style-type: none;
-}
-.position2 {
-	position: relative;
-	top: 100px;
-}
-
-.links {
-	position: relative;
-	border: 2px solid black;
-	border-radius: 8px;
-	top: 5%;
-	left: 5%;
-	max-width: 300px;
-}
-.Midden {
-	position: relative;
-	border: 2px solid black;
-	border-radius: 8px;
-	top: -35%;
-	left: 30%;
-	max-width: 300px;
-}
-.Rechts {
-	position: relative;
-	border: 2px solid black;
-	border-radius: 8px;
-	top: -10%;
-	left: 55%;
-	max-width: 300px;
 }

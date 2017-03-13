@@ -23,16 +23,14 @@ img {
     height: auto;
 }
 body {
-<<<<<<< HEAD
   margin: 0;
   padding-top: 60px;
   height: 100%;
   width: 100%;
-=======
-    padding-top: 50px;
+ 
 }.table {
  	list-style-type: none;
->>>>>>> origin/master
+
 }
 ol {
 	list-style-type: none;

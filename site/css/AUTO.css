@@ -10,12 +10,40 @@
     margin-left: 7%;
     width: 90%;
   }
+  .contentback {
+    width: 61vw;
+    opacity: 0.4;
+    background-color: grey;
+  }
   .content {
     position: relative;
     width: 20vw;
+    height: 20%;
+    display: inline-block;
+  }
+  .doublecontentR {
+    position: relative;
+    width: 40vw;
     margin-left: 1%;
     height: 20%;
     display: inline-block;
+    font-family: verdana;
+    text-align: right;
+  }
+  .doublecontentR h1 {
+    font-family: 'Baloo Bhaina', cursive;
+  }
+  .doublecontentL {
+    position: relative;
+    width: 40vw;
+    margin-left: 1%;
+    height: 20%;
+    display: inline-block;
+    font-family: verdana;
+    text-align: left;
+  }
+  .doublecontentL h1 {
+    font-family: 'Baloo Bhaina', cursive;
   }
 }
 img {
